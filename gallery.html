@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>RRR</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/assets/RRR_Color.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: #d3d3d3;
+        }
+
+        .header-wrap {
+            background-color: #f63b17;
+        }
+
+        .gallery_thumbs {
+            padding: 60px 0px 0px 0%;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .gallery_card {
+            position: relative;
+            overflow: hidden;
+
+            border-radius: 20px;
+            cursor: pointer;
+
+            height: 210px;
+
+            transition: .4s ease;
+        }
+
+        .gallery_card:hover {
+            transform: translateY(-8px);
+        }
+
+        .gallery_card img {
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+            display: block;
+
+            transition: .5s;
+        }
+
+        .gallery_card:hover img {
+            transform: scale(1.08);
+        }
+
+        .gallery_overlay {
+            position: absolute;
+
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            padding: 22px;
+
+            color: white;
+
+            background: linear-gradient(transparent,
+                    rgba(0, 0, 0, .45),
+                    rgba(0, 0, 0, .95));
+        }
+
+        .gallery_overlay h4 {
+            font-size: 20px;
+
+            margin-bottom: 8px;
+
+            font-family: "Bronco";
+
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .gallery_overlay span {
+            font-size: 14px;
+            opacity: .9;
+
+            color: #d9d9d9;
+        }
+
+        /* TABLET */
+
+        @media(max-width:992px) {
+
+            .gallery_thumbs {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        /* MOBILE */
+
+        @media(max-width:576px) {
+
+            .gallery_thumbs {
+                grid-template-columns: 1fr;
+                padding: 50px 8%;
+            }
+
+            .gallery_card {
+                height: 240px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-wrap">
+
+        <div class="logo">
+            <img src="/assets/RRR_Color.png">
+        </div>
+
+        <header class="header">
+
+            <nav class="menu">
+                <a href="/index.html">Squad</a>
+                <a href="/fixtures.html">Fixtures</a>
+                <a href="/vault.html">RRR Vault</a>
+                <a href="/sponsers.html">Sponsors</a>
+                <a href="/gallery.html">Gallery</a>
+            </nav>
+
+            <div class="profile-box">
+                <i class="fa-regular fa-user"></i>
+            </div>
+
+        </header>
+
+    </div>
+    <div class="main">
+
+        <div class="gallery_thumbs">
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault2.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>RRR Training Session Highlights</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>Behind The Scenes ft. Risers</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault2.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>Match Day Vibes 🔥</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>Locker Room Moments</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault2.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>Squad Arrival Shots</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>Fan Reactions Compilation</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault2.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>RRR Training Session Highlights</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>Behind The Scenes ft. Risers</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault2.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>Match Day Vibes 🔥</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+            <div class="gallery_card">
+
+                <img src="/assets/vault.jpg" alt="">
+
+
+
+                <div class="gallery_overlay">
+                    <h4>Locker Room Moments</h4>
+                    <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <section class="sponsors-section">
+
+            <h2 class="sponsor-title">OUR SPONSORS</h2>
+
+            <!-- Row 1 (2 images) -->
+            <div class="sponsor-row row-2">
+                <img src="/assets/logo-pranava.png">
+                <img src="/assets/logo-pranava.png">
+            </div>
+
+            <!-- Row 2 (2 images) -->
+            <div class="sponsor-row row-2">
+                <img src="/assets/logo-pranava.png">
+                <img src="/assets/logo-pranava.png">
+            </div>
+
+            <!-- Row 3 (4 images) -->
+            <div class="sponsor-row row-4">
+                <img src="/assets/logo-pranava.png">
+                <img src="/assets/logo-pranava.png">
+                <img src="/assets/logo-pranava.png">
+                <img src="/assets/logo-pranava.png">
+
+            </div>
+        </section>
+
+    </div>
+    <footer class="srh-footer">
+
+        <!-- Background Shapes -->
+        <div class="footer-shape left"></div>
+        <div class="footer-shape right"></div>
+
+        <div class="footer-top">
+
+            <div class="footer-logo">
+                <img src="/assets/RRR_Color.png" alt="">
+            </div>
+
+            <div class="footer-links">
+
+                <div class="footer-col">
+                    <a href="#">Fixtures</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Gallery</a>
+                </div>
+
+                <div class="footer-col">
+                    <a href="#">News</a>
+                    <a href="#">Squad</a>
+
+                </div>
+
+                <div class="footer-col">
+                    <a href="#">RRR Vault</a>
+                    <a href="#">Sponsors</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>© 2026 Ranga Reddy Risers</p>
+
+            <div class="socials">
+
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
