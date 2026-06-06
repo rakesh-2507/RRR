@@ -45,7 +45,7 @@
         /* TOP LEFT */
 
         .left-light {
-            top: 10%;
+            top: 5%;
             left: -5%;
             transform: rotate(320deg);
             /* animation: floatLeft 6s ease-in-out infinite; */
@@ -54,7 +54,7 @@
         /* TOP RIGHT */
 
         .right-light {
-            top: 10%;
+            top: 5%;
             right: -5%;
             transform: rotate(42deg);
             /* animation: floatRight 6s ease-in-out infinite; */
