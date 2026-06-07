@@ -396,7 +396,7 @@ body {
 
 @media (max-width: 768px) {
   .main {
-    padding: 20px;
+    padding: 15% 1%;
   }
 
   .logo {
@@ -408,7 +408,10 @@ body {
   .header {
     height: auto;
 
-    padding: 15px;
+    padding: 40px 4px 10px 10px;
+  }
+  .header-wrap {
+    margin: 0px 0px;
   }
 
   .menu {
@@ -529,7 +532,7 @@ body {
 
 @media (max-width: 768px) {
   .sponsors-section {
-    padding: 60px 20px;
+    padding: 20px 20px;
 
     margin-top: 60px;
   }
@@ -1001,6 +1004,9 @@ body {
 /* RESPONSIVE */
 
 @media (max-width: 900px) {
+  .fixtures {
+    margin: -90px 5px 5px 5px;
+  }
   .tickets-section {
     grid-template-columns: 1fr;
   }
