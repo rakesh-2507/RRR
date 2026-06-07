@@ -6,7 +6,6 @@
 
 body {
   font-family: "Orbitron", sans-serif;
-  background: #f63b17;
   overflow-x: hidden;
 }
 
@@ -123,7 +122,7 @@ body {
   position: relative;
 
   /* sticky glass effect */
-  background: rgba(246, 59, 23, 0.78);
+  background: #fa5c05;
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 
@@ -270,7 +269,7 @@ body {
 
   bottom: 0px;
 
-  background: rgba(2, 40, 87, 0.92);
+  background: rgb(250 92 5 / 0.92);
 
   border: 1px solid rgba(255, 255, 255, 0.15);
 
@@ -566,7 +565,7 @@ body {
 
 .srh-footer {
   position: relative;
-  background: linear-gradient(90deg, #f63b17, #ff4214, #ff3610);
+  background: linear-gradient(90deg, #fa5c05, #ff4214, #fa5c05);
   overflow: hidden;
   padding: 0 50px 1px;
   color: white;
@@ -749,20 +748,6 @@ body {
     font-size: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* fixtures */
 .banner {
